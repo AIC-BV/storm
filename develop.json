@@ -1,0 +1,455 @@
+{
+    "mysql": "8.0.45",
+    "php": "8.4.24",
+    "iterations": 25,
+    "results": [
+        {
+            "size": 1000,
+            "nothing_deferred": {
+                "median_ms": 8.8902,
+                "p95_ms": 11.4465,
+                "runs": 25,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 1000
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 9.395,
+                "p95_ms": 11.6709,
+                "runs": 25,
+                "file_ids": [
+                    500,
+                    1001
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 1001
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        },
+        {
+            "size": 10000,
+            "nothing_deferred": {
+                "median_ms": 33.41,
+                "p95_ms": 41.4357,
+                "runs": 25,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 9999
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 46.5824,
+                "p95_ms": 60.5969,
+                "runs": 25,
+                "file_ids": [
+                    500,
+                    10002
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 10000
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        },
+        {
+            "size": 50000,
+            "nothing_deferred": {
+                "median_ms": 148.829,
+                "p95_ms": 185.6578,
+                "runs": 23,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 49773
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 312.5671,
+                "p95_ms": 333.4208,
+                "runs": 18,
+                "file_ids": [
+                    500,
+                    50003
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 49774
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        },
+        {
+            "size": 100000,
+            "nothing_deferred": {
+                "median_ms": 462.8838,
+                "p95_ms": 485.3482,
+                "runs": 8,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 99210
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 598.8897,
+                "p95_ms": 601.7269,
+                "runs": 6,
+                "file_ids": [
+                    500,
+                    100004
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 99211
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        },
+        {
+            "size": 250000,
+            "nothing_deferred": {
+                "median_ms": 1073.4649,
+                "p95_ms": 1073.4649,
+                "runs": 4,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 247950
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 1522.0116,
+                "p95_ms": 1522.0116,
+                "runs": 3,
+                "file_ids": [
+                    500,
+                    250005
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 247951
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        },
+        {
+            "size": 500000,
+            "nothing_deferred": {
+                "median_ms": 1941.3356,
+                "p95_ms": 1941.3356,
+                "runs": 3,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 495275
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 2261.4305,
+                "p95_ms": 2261.4305,
+                "runs": 3,
+                "file_ids": [
+                    500,
+                    500006
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 495953
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        },
+        {
+            "size": 1000000,
+            "nothing_deferred": {
+                "median_ms": 3700.9677,
+                "p95_ms": 3700.9677,
+                "runs": 3,
+                "file_ids": [
+                    500
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 991132
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            },
+            "binding_pending": {
+                "median_ms": 5548.1027,
+                "p95_ms": 5548.1027,
+                "runs": 3,
+                "file_ids": [
+                    500,
+                    1000007
+                ],
+                "explain": {
+                    "type": "ALL",
+                    "key": null,
+                    "rows": 991585
+                },
+                "binding_types": [
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer",
+                    "string",
+                    "string",
+                    "string",
+                    "integer"
+                ]
+            }
+        }
+    ]
+}
